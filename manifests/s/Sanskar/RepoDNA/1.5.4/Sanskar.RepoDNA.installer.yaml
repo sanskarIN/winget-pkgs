@@ -1,0 +1,14 @@
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
+
+PackageIdentifier: Sanskar.RepoDNA
+PackageVersion: 1.5.4
+InstallerType: msi
+Installers:
+  - Architecture: x64
+    InstallerUrl: https://github.com/sanskarIN/RepoDNA/releases/download/v1.5.4/RepoDNA_1.5.4_x64_en-US.msi
+    InstallerSha256: 5586D58AFE29674242AD38F148FD35D6FDD8C37DD155C45DACC8A7D380830EB8
+  - Architecture: arm64
+    InstallerUrl: https://github.com/sanskarIN/RepoDNA/releases/download/v1.5.4/RepoDNA_1.5.4_arm64_en-US.msi
+    InstallerSha256: BD22B022D282B0A613E7E7048CF0DC9BD5C7A951C83433F33D8B3DFD73A5650A
+ManifestType: installer
+ManifestVersion: 1.12.0
